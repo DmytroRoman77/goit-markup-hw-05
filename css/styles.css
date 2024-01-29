@@ -425,9 +425,11 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     align-items: center;
     justify-content: center;
 }
-.form-footer {
+.subscribe-footer {
     display: flex;
-    gap: 24px;
+}
+.form-footer-label {
+    gap:24px;
 }
 .form-footer-title {
     color: #FFF;
@@ -435,9 +437,11 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
+    margin-bottom: 16px;
 }
 .form-footer-button {
     color: #FFF;
+    display: flex;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
@@ -448,6 +452,7 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     line-height: 24px;
     letter-spacing: 0.64px;
     border-radius: 4px;
+    border: none;
     background: #4D5AE5;
     cursor: pointer;
     height: 40px;
@@ -462,21 +467,25 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
 .form-input {
     width: 264px;
     height: 40px;
-    background: #2E2F42;
-    border-radius: 4px;
-    border: 1px solid #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-.form-input::placeholder {
+    font-size: 12px;
     color:#FFF;
     font-family: inherit;
     font-size: 12px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.48px;
-    padding-top: 8px;
-    padding-bottom: 8px;
     padding-left: 16px;
+    background: #2E2F42;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.form-input::placeholder {
+    color:#FFF;
+}
+.icon-button-footer {
+    margin-left: 16px;
 }
 .backdrop {
     display: flex;
