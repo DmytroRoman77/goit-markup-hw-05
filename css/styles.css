@@ -426,10 +426,11 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     justify-content: center;
 }
 .subscribe-footer {
-    display: flex;
+    margin-left: 80px;
 }
-.form-footer-label {
-    gap:24px;
+.form-footer {
+    display: flex;
+    gap: 24px;
 }
 .form-footer-title {
     color: #FFF;
@@ -446,7 +447,6 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     justify-content: center;
     align-items: center;
     gap: 16px;
-    text-align: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -494,7 +494,6 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     position: fixed;
     top: 0;
     background:rgba(46, 47, 66, 0.40);
-
 }
 .modal {
     width: 408px;
