@@ -546,14 +546,14 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.40);
 }
-.modal-input-textarea {
+.modal-input-text {
     width: 360px;
     height: 120px;
     padding-left: 16px;
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.40);
 }
-.modal-input-textarea::placeholder {
+.modal-input-text::placeholder {
     color: rgba(46, 47, 66, 0.40);
     font-family: Roboto;
     font-size: 12px;
