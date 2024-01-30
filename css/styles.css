@@ -528,9 +528,9 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
 }
 .modal-close-btn:hover ,
 .modal-close-btn:focus {
-    fill: #4D5AE5;
     background-color: #404bbf;
     border: none;
+    fill: #ffffff
 }
 .modal-bth-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -580,7 +580,7 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
 }
 .modal-input:focus {
     border-color: #4D5AE5;
-    fill: #4D5AE5;
+    fill: #4D5AE5; 
 }
 .input-icon {
     position: absolute;
@@ -622,6 +622,7 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     display: inline-flex;
     align-items: center;
     justify-content: center; 
+    fill: transparent; 
     margin-right: 8px;
     background-color: #404bbf;
     border: none;
