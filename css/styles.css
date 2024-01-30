@@ -634,7 +634,7 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     line-height: 1.17;
     letter-spacing: 0.04em
 }
-.visually-hidden:checked .label-chb-span {
+.visually-hidden[label-chb-span]:checked  {
     background-color: #404bbf;
     border: none;
     fill:#F4F4FD;
