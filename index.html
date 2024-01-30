@@ -233,8 +233,14 @@
             </svg>
             </div>
             </div>
-            <label class="form-label" for="comment">Comment</label>
-            <input name="comment" type="text" placeholder="Text input" class="modal-input-text" id="comment">
+            <div class="modal-item">
+            <label class="form-label" for="user-comment ">Comment</label>
+            <input name="comment" type="text-area" placeholder="Text input" class="modal-input-textarea" id="user-comment">
+            <div class="form-text">
+              <input class="visually-hidden" name="user-privacy" type="checkbox" id="user-privacy"  value="true">
+              <label for="user-privacy" class="label-chb"><span class="label-chb-span"><svg width="10" height="8"><use href="./images/icons.svg#icon-Checkbox"></use></svg></span>I accept the terms and conditions of the<a class="label-chb-privacy">Privacy Policy</a></label>
+            </div>
+            </div>
             <button type="submit" class="button">Send</button>
             </form>
     </div>
