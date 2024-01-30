@@ -528,7 +528,7 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
 }
 .modal-close-btn:hover ,
 .modal-close-btn:focus {
-    fill: #ffffff;
+    fill: #4D5AE5;
     background-color: #404bbf;
     border: none;
 }
