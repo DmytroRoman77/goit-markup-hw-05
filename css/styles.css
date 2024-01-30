@@ -590,6 +590,9 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
 .input-icon:hover {
     fill: #4D5AE5;
 }
+.modal-item-textarea {
+    margin-bottom: 16px 
+}
 .modal-input-textarea {
     width: 360px;
     color: rgba(46, 47, 66, 0.4);
