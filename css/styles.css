@@ -586,6 +586,7 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     position: absolute;
     left: 16px;
     top: 50%;
+    fill: #4D5AE5;
     transform: translateY(-50%); 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -614,8 +615,8 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     margin-bottom: 24px; 
 }
 .label-chb-span {
-    width: 10px;
-    height: 8px; 
+    width: 16px;
+    height: 16px; 
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -624,6 +625,9 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     justify-content: center; 
     fill: transparent; 
     margin-right: 8px;
+    background-color: #404bbf;
+    border: none; 
+    fill: #F4F4FD;
 }
 
 .label-chb {
