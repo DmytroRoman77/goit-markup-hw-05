@@ -117,7 +117,7 @@ margin-left: auto;
     background-position: center;
     background-color: #2E2F42;
     padding: 188px 0;
-    margin: auto;
+    margin: 0 auto;
 }
 .slogan {
     color:#FFF;
@@ -623,18 +623,20 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     align-items: center;
     justify-content: center; 
     margin-right: 8px;
-    background-color: #404bbf;
-    border: none; 
+    background-color: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    fill: #F4F4FD;
     fill: transparent; 
 }
-
 .label-chb {
     color:#8e8f99;
     font-size: 12px; 
     line-height: 1.17;
     letter-spacing: 0.04em
+}
+.check-input:checked.label-chb-span {
+    fill: #F4F4FD;
+    background-color: #404bbf;
+    border: none; 
 }
 .label-chb-privacy {
 color: #4D5AE5;
